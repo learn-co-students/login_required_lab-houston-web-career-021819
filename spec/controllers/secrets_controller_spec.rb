@@ -13,5 +13,5 @@ RSpec.describe SecretsController do
       get :show, nil, {name: 'Maya Angelou'}
       assert_response 200
     end
-  end
+  end 
 end
